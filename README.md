@@ -17,3 +17,6 @@ https://www.youtube.com/user/ProfessorJosedeAssis
 
 ## Twitter
 @joseassis
+
+## Validações HTML e CSS
+https://validator.w3.org/
