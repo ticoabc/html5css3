@@ -3,6 +3,9 @@ Aprendendo HTML5 e CSS3 de forma simples, prática e objetiva desenvolvendo pass
 
 ## Agradecimento ao Professor José de Assis
  
+##GitHub
+https://github.com/professorjosedeassis
+
 @SENAC
 São Paulo,SP,Brazil
 
