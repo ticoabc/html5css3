@@ -3,3 +3,14 @@ Aprendendo HTML5 e CSS3 de forma simples, prática e objetiva desenvolvendo pass
 
 ## Agradecimento ao Professor José de Assis
  
+@SENAC
+São Paulo,SP,Brazil
+
+## Email
+josedeassisfilho@gmail.com 
+
+## YouTube
+https://www.youtube.com/user/ProfessorJosedeAssis 
+
+## Twitter
+@joseassis
