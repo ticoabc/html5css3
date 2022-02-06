@@ -21,7 +21,7 @@ body{
 /* Layout*/
 .Container{
     margin: 0 auto;
-    background-color: #7f0;
+    background-color: rgb(114, 117, 112);
 }
 
 /*Smartphone Portrait  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -39,7 +39,7 @@ body{
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px){
     body{
-        background-color: #ffff00;
+        background-color: #3b18b9;
     }
     /* Layout*/
     .Container{
