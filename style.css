@@ -15,20 +15,17 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1em; /* 1em = 16 pixels*/
 }
 /* Layout*/
 .Container{
     margin: 0 auto;
-    background-color: rgb(114, 117, 112);
 }
 
 .Flex{
     display: flex;
     justify-content: space-between;
-    background-color: #1be2b0;
 }
-
 
 /* topo do site*/
 #topo{
@@ -52,70 +49,75 @@ header{
     display: none;
 }
 
-#label{
-    font-size: 3em
+label{
+    font-size: 3em;
     padding-right: 15px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
-    background-color: #303538;
+    background-color: #343538;
     height: 100vh;
     position: fixed;
-    top: 20px;
+    top: 60px;
     right: -100%;
     width: 100%;
-    transition: all 0,5s;
-
+    transition: all 0.5s;
 }
 
-#check:checked ~ ul {
+#check:checked ~ ul{
     right: 0;
-    
 }
 
-nav ul li{
+nav ul li {
     padding: 20px;
-    border-bottom: 1px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;    
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    color: #ffff;
+    color: #fff;
 }
 
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
+    body{
+
+    }    
     /* Layout*/
-    .Container{
-        background-color: aqua;
+    .Container{        
         max-width: 540px;
     }
-
 }
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px){
+    body{
+
+    }    
     /* Layout*/
-    .Container{
-        background-color: gold;
+    .Container{        
         max-width: 720px;
     }
 }
 /*Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 992px){
+    body{
+        
+    }    
     /* Layout*/
-    .Container{
-        background-color: darkgreen;
+    .Container{        
         max-width: 960px;
     }
 }
 /*PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px){
-/* Layout*/
-.Container{
-    background-color: darkred;
-    max-width: 1140px;
-}
+    body{
+
+    }
+    /* Layout*/
+    .Container{        
+        max-width: 1140px;
+    }
 
     /* Cabeçalho*/
 header{
@@ -126,6 +128,31 @@ header{
     width: 210px;
     height: 155px;
     margin-top: 30px;
+}
+
+label{
+    display: none;
+}
+
+nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;    
+}
+
+nav ul li{
+    float: left;
+    border: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #343538;    
+}
+
+nav ul li a:hover{    
+    color: #c00000;    
 }
 
 }
