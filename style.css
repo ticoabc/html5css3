@@ -88,6 +88,7 @@ nav ul li a{
 @media (min-width: 576px){
     /* Layout*/
     .Container{
+        background-color: aqua;
         max-width: 540px;
     }
 
@@ -96,6 +97,7 @@ nav ul li a{
 @media (min-width: 768px){
     /* Layout*/
     .Container{
+        background-color: gold;
         max-width: 720px;
     }
 }
@@ -103,6 +105,7 @@ nav ul li a{
 @media (min-width: 992px){
     /* Layout*/
     .Container{
+        background-color: darkgreen;
         max-width: 960px;
     }
 }
@@ -110,6 +113,7 @@ nav ul li a{
 @media (min-width: 1200px){
 /* Layout*/
 .Container{
+    background-color: darkred;
     max-width: 1140px;
 }
 
