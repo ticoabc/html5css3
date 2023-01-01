@@ -143,6 +143,18 @@ main h2{
     main h2{
         font-size: 2em;
     }
+
+    /*Sobre*/
+    #sobre{
+        padding: 50px 0px;
+        background: url(img/background.png);
+        background-size: cover;
+    }
+
+    #destaqueSobre{
+        display: none;
+    }
+
 }
 /*Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 992px){
