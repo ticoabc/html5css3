@@ -27,6 +27,12 @@ body{
     justify-content: space-between;
 }
 
+.Flex2{
+    display: flex;
+    align-items: center;
+}
+
+
 .Botao{
     text-decoration: none;
     color: #fff;
@@ -52,7 +58,7 @@ header{
 }
 
 #logo img{
-    width: 150px;
+    width: 100px;
     height: 100px;
 }
 
@@ -92,9 +98,10 @@ nav ul li a {
 
 /* Destaque */
 main{
-    height: 75vh;
+    height: 75vh; /* Equiale a 75% da tela independente do dispositivo */
     background: url(img/banner.jpg);
     background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -111,6 +118,34 @@ main h2{
     margin: 20px 0px 50px 0px;
 }
 
+/* Sobre */
+#sobre{
+    padding: 50px 0px;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#destaqueSobre{
+    display: none;
+}
+
+#textoSobre{
+    color: #fff;
+    padding: 0px 10px;
+}
+
+#textoSobre h2 {
+    margin-bottom: 10px;
+}
+
+.TopicosSobre{
+    margin-top: 20px;
+}
+
+.TopicosSobre img {
+    margin-right: 10px;
+}
 
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
@@ -133,7 +168,7 @@ main h2{
 
     /*Destaque*/
     main{
-        height: 45vh;
+        height: 45vh;/* Equiale a 45% da tela independente do dispositivo */
     }
 
     main h1{
@@ -210,8 +245,23 @@ nav ul li a{
     color: #343538;    
 }
 
-nav ul li a:hover{    
-    color: #c00000;    
+nav ul li a:hover{
+    color: #c00000;
+}
+
+/* Sobre */
+#sobre{
+    background-attachment: fixed; /* Fundo cinza fica fixo enquanto a página 
+                                        é deslizada para cima ou baixo 
+                                            Efeito Parallax*/
+}
+#destaqueSobre{
+    display: inline;
+}
+
+#destaqueSobre img{
+    border-radius: 50%;
+    margin-right: 50px;
 }
 
 }
