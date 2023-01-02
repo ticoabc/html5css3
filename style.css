@@ -18,20 +18,24 @@ body{
     font-size: 1em; /* 1em = 16 pixels*/
 }
 /* Layout*/
-.Container{
+.Container {
     margin: 0 auto;
 }
 
-.Flex{
+.Flex {
     display: flex;
     justify-content: space-between;
 }
 
-.Flex2{
+.Flex2 {
     display: flex;
     align-items: center;
 }
 
+.Flex3 {
+    display: flex;
+    flex-direction: column;
+}
 
 .Botao{
     text-decoration: none;
@@ -150,6 +154,25 @@ main h2{
     margin-right: 10px;
 }
 
+/* One Page */
+#onepage{
+    padding: 50px 10px;
+}
+
+#onepage h2{
+    margin-bottom: 10px;
+}
+
+#onepage p{
+    margin-bottom: 25px;
+}
+
+#video iframe{ /* Tamanho otimizado para a maioria dos smartphones */
+    width: 340px;
+    height: 191px;
+    border: 0; /* Sugestão do Validador de códigod Nu HTML Checker */
+}
+
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
     /* Layout*/
@@ -160,6 +183,12 @@ main h2{
     /*Destaque*/
     main h1, h2{
         text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+
+    /* One Page */
+    #video iframe{ /* Tamanho padrão YouTube */
+        width: 560px;
+        height: 315px;
     }
 }
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -267,4 +296,9 @@ nav ul li a:hover{
     margin-right: 50px;
 }
 
+/* One Page */
+.Flex3{
+    flex-direction: row;
+    align-items: center;
+}
 }
