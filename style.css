@@ -173,6 +173,35 @@ main h2{
     border: 0; /* Sugestão do Validador de códigod Nu HTML Checker */
 }
 
+/* Wireframe */
+#wireframe{
+    padding: 50px 0px;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#textoWire{
+    color: #fff;
+    padding: 0px 10px;    
+}
+
+#textoWire h2{
+    margin-bottom: 10px;
+}
+
+#textoWire p{
+    margin-bottom: 40px;
+}
+
+#textoWire span{/* Esconde parte do texto em Smartphones ou Tablets */
+    display: none;
+}
+
+#qrcode{/* Esconde QR Code em Smartphones ou Tablets */
+    display: none;
+}
+
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
     /* Layout*/
@@ -301,4 +330,25 @@ nav ul li a:hover{
     flex-direction: row;
     align-items: center;
 }
+
+/* Wireframe */
+#wireframe{
+    background-attachment: fixed;/* Fundo cinza fica fixo enquanto a página 
+                                        é deslizada para cima ou baixo
+                                            Efeito de continuidade*/
+}
+
+#wireframe span{
+    display: inline;/* Retorna o texto oculto nos dispositivos menores*/
+}
+
+#qrcode{
+    display: inline;
+}
+
+#qrcode img{
+    width: 225px;
+    height: 225px;    
+}
+
 }
